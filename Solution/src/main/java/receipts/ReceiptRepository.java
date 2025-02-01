@@ -4,6 +4,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
 public class ReceiptRepository {
+
     private final ConcurrentMap<String, Integer> storage = new ConcurrentHashMap<>();
 
     public void save(String id, int points) {
@@ -14,4 +15,3 @@ public class ReceiptRepository {
         return storage.get(id);
     }
 }
-

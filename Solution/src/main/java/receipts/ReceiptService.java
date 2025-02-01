@@ -25,4 +25,3 @@ public class ReceiptService {
         return repository.getPoints(id);
     }
 }
-

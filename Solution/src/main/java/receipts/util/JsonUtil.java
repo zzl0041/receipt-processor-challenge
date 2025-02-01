@@ -13,4 +13,3 @@ public class JsonUtil {
         return objectMapper.writeValueAsString(obj);
     }
 }
-
